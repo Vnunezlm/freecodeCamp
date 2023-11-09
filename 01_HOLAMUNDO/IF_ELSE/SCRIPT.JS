@@ -19,9 +19,9 @@
         Utiliza declaraciones "if-else" para resolver este problema.*/
         let temperatura = 16;
         if (temperatura < 0){
-            console.log("hace mucho frio: " + temp + "ºC"););
+            console.log("hace mucho frio: " + temperatura + "ºC");
         }else if (temperatura > 0 < 25){
-            console.log("la temperatura es agradable: " + temp + "ºC");
+            console.log("la temperatura es agradable: " + temperatura + "ºC");
         }else {
 
         }
@@ -34,7 +34,7 @@
         let userName = "vnunez";
         let password = "1276";
 
-        if(usarName === "vnunez" && password === "1276"){
+        if (userName === "vnunez" && password === "1276"){
             console.log("Acceso concedido");
         }else {
             console.log("Acceso denegado");
@@ -44,5 +44,15 @@
 Escribe un programa en JavaScript que determine si el número es positivo, 
 negativo o igual a cero. Imprime el resultado en la consola. Utiliza una 
 declaración "if-else if-else" para resolver este problema. */
-        let num = 8;
-        if (num)
+let num = 8;
+if(num < 0){
+    console.log("El numero " + num + "es negativo");
+}else if(num === 0){
+    console.log("El numero es igual a 0");
+}else{
+    console.log("El numero " + num + " es positivo");
+}
+
+/*Supongamos que tienes una variable puntuación que almacena 
+la puntuación de un juego. Escribe un programa en JavaScript
+que determine el rango de la puntuación: */

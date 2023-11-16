@@ -1,4 +1,4 @@
-    function password(){
+    function login(){
         let userName = prompt("Ingrese su Nombre de Usuario: ")
         let password = prompt("Ingrese su contraseña: ")
 

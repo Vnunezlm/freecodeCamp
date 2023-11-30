@@ -1,11 +1,11 @@
 //Ejercicio
 function contar(){
-    let contador = 20;
+    let cont = parseInt(prompt("Ingrese un número"));
     let array = [];
     
-    while(contador >= 10){
-        array.push(contador);
-        contador--;
+    while(cont >= 10){
+        array.push(cont);
+        cont--;
     }
     alert(`Lista: ${array }`);
 }

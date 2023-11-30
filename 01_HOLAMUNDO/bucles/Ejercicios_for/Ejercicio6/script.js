@@ -23,7 +23,7 @@ function ces(){
     }
     array.push(notas);
     }
-    let suma = 0;
+    let Suma = 0;
     for(let j = 0; j < array.length; j++){
         suma += array[j]
     }
@@ -35,3 +35,12 @@ function ces(){
 
 
 
+function calificaciones(){
+    let suma2 = 0;
+for(let l = 0; l <= 5; l++){
+    let numUser = parseInt(prompt(`Ingresa una calificación`));
+    suma2 += numUser
+}
+let final = suma2 / 5;
+alert(`resultado: ${final}`);
+}
